@@ -1,0 +1,30 @@
+Fluid Layouts
+target / context = result
+(Target Font Size) / (font size of containing element) = result should be in percent or em
+
+Fluid Layouts: Layouts that scale
+Fixed Layouts: Layouts That are static
+
+When setting flexible margins on an element, your context is the width of the element's container
+
+when setting flexible padding on an element, your context is the width of the element itself
+
+css:
+@media screen and (max-width: 320px) {
+  body{
+  font-size: 100%
+  }
+}
+meaning: if screensize is <= 320px width use these styles
+
+@media screen and (min-width: 320px) {
+  body{
+  font-size: 100%
+  }
+}
+meaning: if screensize is >= 320px width use these styles
+
+All Responsive are Adaptive but not all Adaptive are Responsive
+
+in adaptive design: height and width of device defines break points
+in responsive design: content defines the break points
