@@ -1,0 +1,71 @@
+body{
+    background-color: darkgreen;
+    color: goldenrod
+}
+header{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#logo{
+    margin: 0px;
+}
+#title{
+    text-align: center;
+}
+#logo-container, #title-container{
+    float: left;
+}
+#information{
+    border-radius: 25px;
+    padding: 5px;
+    background-color: darkolivegreen;
+    text-align: center;
+    
+}
+#castlistbox{
+    display: inline-block;
+}
+.castlist{
+    list-style-position: inside;
+    list-style-type: disc;
+    margin: 0;
+    padding: 0;
+}
+.video{
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: darkolivegreen;
+    text-align: center;
+}
+#trailer{
+    width:"560";
+    height:"315"; 
+    src: url("https://www.youtube-nocookie.com/embed/2Z4m4lnjxkY?rel=0");
+    allow:"encrypted-media";
+}
+#inline-list li{
+    display: inline;
+    list-style: none;
+    padding-right: 20px;
+}
+#inline-list li a{
+    color: goldenrod;
+}
+footer{
+    /* always at the bottom*/
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    border-radius: 10px 10px 0px 0px;
+
+    padding: 1rem;
+    height: 50px;
+    background-color: grey;
+}
+#footer-text p{
+    
+    margin: 0;
+}
